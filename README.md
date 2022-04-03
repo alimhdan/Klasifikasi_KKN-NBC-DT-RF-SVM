@@ -7,13 +7,7 @@ Pada kali ini, saya akan berbagi mengenai tugas kelompok mata kuliah data mining
 
 Diperoleh nilai akurasi sebesar 64,48%
 
-# Naive Bayes
-> hasil2
-Confusion Matrix and Statistics
-  prediksi      Not Potable Potable
-  Not Potable         896     503
-  Potable             116     132
-                                          
+# Naive Bayes                             
                Accuracy : 0.6242          
                  95% CI : (0.6003, 0.6476)
     No Information Rate : 0.6145          
@@ -36,10 +30,7 @@ Diperoleh nilai akurasi sebesar 62,42%
 
 # Decision Tree
 ![image](https://user-images.githubusercontent.com/102334577/161410164-196fa48a-9982-4956-b21b-6c0049d3ee04.png)
-> #prediksi
-> preds <- predict(model, testing, type = "class")
-> hasil3=confusionMatrix(table(preds,testing$Potability))
-> hasil3
+
     Confusion Matrix and Statistics
            
     preds         Not Potable Potable
